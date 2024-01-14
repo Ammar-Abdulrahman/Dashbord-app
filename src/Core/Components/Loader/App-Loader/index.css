@@ -1,0 +1,21 @@
+.splash-screen {
+    width: 700px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 420px;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    z-index: 999;
+    transition: opacity 3s ease-in-out;
+    animation: fadeIn 4s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
